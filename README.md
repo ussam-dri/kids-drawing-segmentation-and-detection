@@ -77,15 +77,3 @@ Common issues and fixes
 - No predictions / unexpected result format:
   - Some pipeline results return SDK-specific objects (e.g., `Detections`) rather than plain dicts. Access attributes with getattr() or check for `.predictions` instead of using dict.get().
 
-Important note — don't get tricked by stray triple backticks (```):
-
-- If you see "```" lines left accidentally in files (for example from copy/paste), they can break markdown rendering or accidentally truncate code blocks.
-- When editing this README or other markdown files in VS Code, ensure code fences are properly opened and closed. If you need to paste code blocks inside this README, use standard triple backticks fenced blocks; when generating or sharing snippets in tooling that requires four-backtick wrappers, use the project's tooling instructions.
-- If you find an isolated "```" line in this repo (for example an unclosed fence), remove it or complete the block to avoid rendering and parsing issues.
-
-Optional improvements (suggested)
-
-- Add `requirements.txt` for backend dependencies.
-- Add `.env.example` with required env vars.
-- Add small script to convert canvas base64 -> file for server testing.
-- Add unit tests for critical backend endpoints.
