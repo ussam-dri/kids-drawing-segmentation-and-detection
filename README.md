@@ -1,4 +1,7 @@
 # Project VA KIDS DRAWINGS
+![before detection](./baa.jpg)
+![after detection](./vab.jpg)
+
 
 Short overview
 
